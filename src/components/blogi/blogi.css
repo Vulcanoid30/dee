@@ -1,0 +1,132 @@
+.card-img {
+  width: 500px;
+  height: 500px;
+}
+
+.text-bg-dark {
+  width: 500px;
+  height: 500px;
+}
+.blog-a {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.card-w-title {
+  margin-top: 10em;
+  font-weight: bold;
+}
+
+.card-w {
+  font-weight: bold;
+  font-size: 15px;
+  /* margin-top: 20em; */
+}
+
+.blog-b {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-img {
+  width: 300px;
+  height: 300px;
+}
+
+.app-title h1 {
+  margin-top: 2em;
+  margin-left: 5.3em;
+  font-weight: bold;
+}
+
+.app-desc p {
+  margin-left: 10.6em;
+  width: 67%;
+  font-size: 20px;
+  font-weight: 540;
+  color: rgb(87, 87, 87);
+}
+
+.source h5 {
+  margin-top: 2em;
+  font-weight: bold;
+  margin-left: 10.6em;
+}
+
+.pre-back {
+  margin-left: 20em;
+  /* border: 1px solid black; */
+
+  width: 60%;
+}
+
+.source-code {
+  margin-top: 2em;
+}
+
+.source-code span {
+  font-size: 18px;
+}
+
+.a {
+  display: flex;
+}
+
+.import {
+  color: rgb(215, 77, 77);
+}
+
+.text {
+  color: black;
+}
+
+.bia {
+  color: rgb(66, 66, 177);
+}
+
+.api {
+  margin-left: 1em;
+}
+
+.return {
+  color: green;
+  margin-left: 2em;
+}
+
+.data {
+  margin-left: 3em;
+}
+
+.todo {
+  margin-left: 4em;
+}
+
+.todo {
+  margin-left: 7em;
+}
+
+.data1 {
+  margin-left: 5em;
+}
+
+.datas {
+  margin-left: 7em;
+}
+
+.link h1 {
+  margin-top: 2em;
+  margin-left: 5.3em;
+  font-weight: bold;
+}
+
+.link-l a {
+  font-size: 20px;
+  margin-left: 14em;
+  text-decoration: none !important;
+  color: rgb(33, 174, 33);
+}
+
+.dot {
+  color: gray;
+}

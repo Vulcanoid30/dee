@@ -1,0 +1,105 @@
+.navbar-brand {
+  color: rgb(33, 174, 33);
+}
+
+button {
+  /* width: 50px;
+  height: 50px; */
+  /* font-size: 30px; */
+  text-align: center;
+  background-color: white;
+  border-width: 0px;
+  box-sizing: border-box;
+  color: black;
+  box-shadow: none;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+/* button:hover {
+  border-left-width: 5px;
+}
+
+button:active {
+  border-color: rgb(123, 20, 80);
+}
+
+button:focus {
+  outline: 0;
+} */
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 14em;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+.navLink {
+  margin-right: 1em;
+}
+.navLink2 {
+  margin-right: 1em;
+}
+.navLink3 {
+  margin-right: 1em;
+}
+
+.navbar-nav .nav-item .nav-link {
+  /* margin-right: 1em; */
+  color: rgb(50, 49, 49);
+}
+
+.dark {
+  background: black;
+}
+.dark h1 {
+  color: white;
+}
+.dark h2 {
+  color: white;
+}
+.dark h5 {
+  color: white;
+}
+.dark hr {
+  color: white;
+}
+.dark p {
+  color: white !important;
+}
+.dark .card {
+  background-color: black;
+}
+
+.dark .navbar-nav .nav-item .nav-link {
+  color: gray;
+}
+
+.dark button {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+
+  background-color: black;
+  border-width: 0px;
+  box-sizing: border-box;
+  color: white;
+  box-shadow: none;
+}
+
+.dark span {
+  color: white;
+}
+
+.dark nav {
+  background: black;
+}

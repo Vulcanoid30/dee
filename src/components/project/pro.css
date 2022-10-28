@@ -1,0 +1,83 @@
+.pro {
+  font-size: 50px;
+  margin-left: 4em;
+  margin-top: 2em;
+  font-weight: bold;
+}
+
+.card-1 {
+  text-decoration: none;
+}
+
+.pro-c {
+  font-size: 20px;
+  margin-left: 10em;
+  font-weight: 500;
+  color: rgb(55 65 81);
+}
+
+.card {
+  margin-top: 2em;
+}
+
+.card-title {
+  color: black;
+  font-weight: 700;
+}
+
+.card-text {
+  color: black;
+}
+
+.card:hover {
+  border-color: rgb(33, 174, 33);
+}
+
+.foot2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+  color: gray;
+  font-weight: 600;
+}
+
+.foot2 i {
+  color: red;
+}
+
+@media only screen and (max-width: 400px) {
+  .pro {
+    font-size: 30px;
+    margin-left: 0.5em;
+  }
+  .pro-c {
+    font-size: 14px;
+    margin-left: 1em;
+  }
+  .card {
+    margin-left: 2em;
+    width: 80%;
+  }
+  .foot2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .pro {
+    margin-left: 0.5em;
+  }
+
+  .pro-c {
+    margin-left: 1em;
+  }
+  .card {
+    margin-left: 2em;
+    width: 80%;
+  }
+  .foot2 {
+    display: flex;
+    justify-content: center;
+  }
+}
