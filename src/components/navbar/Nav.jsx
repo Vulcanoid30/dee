@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./nav.css";
 
@@ -56,24 +57,24 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fw-bold">
             <li className="nav-item ">
-              <a className="navLink nav-link" href="/dee">
+              <Link className="navLink nav-link" to="dee">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="navLink nav-link" href="/blog">
+              <Link className="navLink nav-link" to="blog">
                 Blog
-              </a>
+              </Link>
             </li>
             <li className="nav-item ">
-              <a className="navLink2 nav-link" href="/about">
+              <Link className="navLink2 nav-link" to="about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="navLink3 nav-link" href="/project">
+              <Link className="navLink3 nav-link" to="project">
                 Project
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
