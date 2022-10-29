@@ -13,7 +13,7 @@ const App = () => {
       <Nav />
       <HashRouter>
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/dee" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blogi" element={<Blogi />} />
           <Route path="/blogic" element={<Blogic />} />
