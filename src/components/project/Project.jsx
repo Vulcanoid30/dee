@@ -26,16 +26,11 @@ const Project = () => {
           </a>
         </div>
         <div className="col-md-3">
-          <a
-            href="https://zlhyd.github.io/apiBored/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="card-1"
-          >
+          <a href="/blogi" className="card-1">
             <div className="card">
               <div className="card-body">
                 {" "}
-                <h5 className="card-title">React App API</h5>
+                <h5 className="card-title">Bored App</h5>
                 <p className="card-text">
                   A simple project using React is to create a Todo List whose
                   data list is retrieved in a public API using the fetch method
@@ -47,13 +42,14 @@ const Project = () => {
       </div>
       <div className="row justify-content-center">
         <div className="col-md-3">
-          <a href="/" className="card-1">
+          <a href="/blogic" className="card-1">
             <div className="card">
               <div className="card-body">
                 {" "}
-                <h5 className="card-title">React App</h5>
+                <h5 className="card-title">Cat Images</h5>
                 <p className="card-text">
-                  Some quick example text to build on the card title
+                  A project using React is to create a random image cat base
+                  their name using public API
                 </p>
               </div>
             </div>

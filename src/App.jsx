@@ -3,7 +3,7 @@ import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Blog from "./components/blog/Blog";
 import Project from "./components/project/Project";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { BrowserRouter as HashRouter, Routes, Route } from "react-router-dom";
 import Blogi from "./components/blogi/Blogi";
 import Blogic from "./components/blogic/Blogic";
 
@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/dee" element={<Home />}></Route>
           <Route path="/blog" element={<Blog />}></Route>
@@ -20,7 +20,7 @@ const App = () => {
           <Route path="/about" element={<About />}></Route>
           <Route path="/project" element={<Project />}></Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 };

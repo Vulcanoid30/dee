@@ -68,8 +68,8 @@ function Blog() {
             <a className="b" href="/blogic">
               {" "}
               <p className="b2 secondary">
-                A project using React is to create a random image cat using
-                public api
+                A project using React is to create a random image cat base their
+                name using public API
               </p>
             </a>
           </div>
