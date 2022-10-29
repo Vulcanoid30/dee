@@ -1,5 +1,6 @@
 import React from "react";
 import "./pro.css";
+import { Link } from "react-router-dom";
 
 const Project = () => {
   return (
@@ -26,7 +27,7 @@ const Project = () => {
           </a>
         </div>
         <div className="col-md-3">
-          <a href="/blogi" className="card-1">
+          <Link to="/blogi" className="card-1">
             <div className="card">
               <div className="card-body">
                 {" "}
@@ -37,12 +38,12 @@ const Project = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="row justify-content-center">
         <div className="col-md-3">
-          <a href="/blogic" className="card-1">
+          <Link to="/blogic" className="card-1">
             <div className="card">
               <div className="card-body">
                 {" "}
@@ -53,7 +54,7 @@ const Project = () => {
                 </p>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="col-md-3">
           <a href="/" className="card-1">

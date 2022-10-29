@@ -1,5 +1,6 @@
 import React from "react";
 import "./blog.css";
+import { Link } from "react-router-dom";
 
 function Blog() {
   return (
@@ -11,104 +12,104 @@ function Blog() {
         <div className="blog-item">
           <div className="blog-i">
             {" "}
-            <a className="b" href="/blogi">
+            <Link className="b" to="/blogi">
               React App Todo List Using API
-            </a>
+            </Link>
             <br />
-            <a
+            <Link
               className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogi"
+              to="/blogi"
             >
               #JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogi"
+              to="/blogi"
             >
               #REACT JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogi"
+              to="/blogi"
             >
               #FETCH
-            </a>
-            <a className="b" href="/blogi">
+            </Link>
+            <Link className="b" to="/blogi">
               {" "}
               <p className="b2 secondary">
-                A simple project using React is to create a Todo List whose data
-                list is retrieved in a public API using the fetch method
+                A simple project using React is to create Link Todo List whose
+                data list is retrieved in Link public API using the fetch method
               </p>
-            </a>
+            </Link>
           </div>
           <div className="blog-i">
             {" "}
-            <a className="b" href="/blogic">
+            <Link className="b" to="/blogic">
               React App Random Image Cat Using API
-            </a>
+            </Link>
             <br />
-            <a
+            <Link
               className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogic"
+              to="/blogic"
             >
               #JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogic"
+              to="/blogic"
             >
               #REACT JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="/blogic"
+              to="/blogic"
             >
               #FETCH
-            </a>
-            <a className="b" href="/blogic">
+            </Link>
+            <Link className="b" to="/blogic">
               {" "}
               <p className="b2 secondary">
-                A project using React is to create a random image cat base their
-                name using public API
+                A project using React is to create Link random image cat base
+                their name using public API
               </p>
-            </a>
+            </Link>
           </div>
           <div className="blog-i">
             {" "}
-            <a
+            <Link
               className="b"
-              href="https://zlhyd.github.io/catImages/"
+              to="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               React App guess gender by name using API
-            </a>
+            </Link>
             <br />
-            <a
+            <Link
               className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
+              to="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
+              to="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #REACT JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
+              to="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #FETCH
-            </a>
-            <a
+            </Link>
+            <Link
               className="b"
               href="https://zlhyd.github.io/catImages/"
               target="_blank"
@@ -119,7 +120,7 @@ function Blog() {
                 A project using React to guess gender by their name using public
                 API
               </p>
-            </a>
+            </Link>
           </div>
         </div>
         <footer>
