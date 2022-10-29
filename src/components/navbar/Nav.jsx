@@ -56,7 +56,7 @@ const Nav = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav fw-bold">
             <li className="nav-item ">
-              <a className="navLink nav-link" href="/dee">
+              <a className="navLink nav-link" href="/">
                 Home
               </a>
             </li>
