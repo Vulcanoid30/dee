@@ -10,8 +10,7 @@ function About() {
         I really like coding, I'm very passionate about technology and
         computers. I am reliable, can work in a team, and can learn quickly my
         interests are in frontend development. In my free time, i enjoy
-        listening to music, gaming and reading. As well, I love to travel and
-        see new places and meet new people.
+        listening to music, gaming and reading.
       </p>
       <div className="work">
         {" "}
