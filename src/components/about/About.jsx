@@ -9,9 +9,9 @@ function About() {
         I am a software/frontend developer with 0 experience (professional) but
         I really like coding, I'm very passionate about technology and
         computers. I am reliable, can work in a team, and can learn quickly my
-        interests are in frontend development. In my free time, I enjoy music,
-        gaming, and reading. As well, I love to travel and see new places and
-        meet new people.
+        interests are in frontend development. In my free time, i enjoy
+        listening to music, gaming and reading. As well, I love to travel and
+        see new places and meet new people.
       </p>
       <div className="work">
         {" "}
