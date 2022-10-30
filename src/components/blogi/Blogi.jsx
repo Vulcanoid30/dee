@@ -220,6 +220,11 @@ function Blogi() {
           </div>
         </div>
       </div>
+      <footer>
+        <p className="foot d-flex justify-content-center">
+          ©️2022 Create With zLhYd
+        </p>
+      </footer>
     </div>
   );
 }

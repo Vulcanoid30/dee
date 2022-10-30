@@ -207,6 +207,11 @@ function blogic() {
           </div>
         </div>
       </div>
+      <footer>
+        <p className="foot d-flex justify-content-center">
+          ©️2022 Create With <i className="bi bi-heart-fill"></i> zLhYd
+        </p>
+      </footer>
     </div>
   );
 }
