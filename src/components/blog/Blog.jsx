@@ -111,7 +111,7 @@ function Blog() {
             </Link>
             <Link
               className="b"
-              href="https://zlhyd.github.io/catImages/"
+              to="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
