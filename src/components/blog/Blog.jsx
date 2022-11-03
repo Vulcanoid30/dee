@@ -76,51 +76,51 @@ function Blog() {
           </div>
           <div className="blog-i">
             {" "}
-            <Link
+            <a
               className="b"
-              to="https://zlhyd.github.io/catImages/"
+              href="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               React App guess gender by name using API
-            </Link>
+            </a>
             <br />
-            <Link
+            <a
               className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
-              to="https://zlhyd.github.io/catImages/"
+              href="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #JS
-            </Link>
-            <Link
+            </a>
+            <a
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              to="https://zlhyd.github.io/catImages/"
+              href="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #REACT JS
-            </Link>
-            <Link
+            </a>
+            <a
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              to="https://zlhyd.github.io/catImages/"
+              href="https://zlhyd.github.io/catImages/"
               target="_blank"
               rel="noopener noreferrer"
             >
               #FETCH
-            </Link>
-            <Link
+            </a>
+            <a
               className="b"
-              to="https://zlhyd.github.io/catImages/"
+              href="https://zlhyd.github.io/genderApi/"
               target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
               <p className="b2 secondary">
-                A project using React to guess gender by their name using public
+                A project using React guess gender by their name using public
                 API
               </p>
-            </Link>
+            </a>
           </div>
         </div>
         <footer>
