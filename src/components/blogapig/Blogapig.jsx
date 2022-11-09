@@ -1,42 +1,34 @@
 import React from "react";
-import "./blogi.css";
-// import copy from "copy-to-clipboard";
-import A from "../../components/image/a.jpeg";
+import D from "../../components/image/d.png";
 import B from "../../components/image/b.jpg";
 
-function Blogi() {
-  // const copyToClipboard = () => {
-  //   copy(document.getElementsByClassName(".pre-back"));
-  //   alert(`You have copied`);
-  // };
-
+function Blogapig() {
   return (
     <div className="blog-l">
       <div className="blog-a">
         <div className="card text-bg-dark ">
           <img className="card-img" src={B} alt="gambar" />
           <div className="card-img-overlay">
-            <h1 className="card-w-title">React Bored App</h1>
+            <h1 className="card-w-title">React Gender App</h1>
             <p className="card-w">
-              📅 Create At 07-Oktober-2022 Using React By ZULHAYAD
+              📅 Create At 25-Oktober-2022 Using React By ZULHAYAD
             </p>
           </div>
         </div>
       </div>
       <div className="blog-b mt-5">
-        <img className="blog-img" src={A} alt="gambar" />
+        <img className="blog-img" src={D} alt="gambar" />
       </div>
       <div className="appi">
         <div className="app-title">
-          <h1>Bored App</h1>
+          <h1>Gender App</h1>
         </div>
         <div className="app-desc">
           <p>
-            Bored App adalah App sederhana menggunakan React sebagian
-            frameworknya aplikasihnya sangat sederhana yaitu hanya mengambil API
-            public kemudian data di tampilkan di browser dengan hanya mentriger
-            tombol maka setiap kali tombolnya di tekan maka akan muncul data
-            yang berbeda dari sebelumnya
+            Gender App adalah App sederhana yang di buat menggunakan React dan
+            datanya menggunakan API public yang kegunaan aplikasihnya yaitu
+            menebak gender seseorang berdasarkan nama mereka dan kemudian data
+            tersebut akan muncul di halaman Webnya
           </p>
         </div>
         <div className="source">
@@ -52,26 +44,44 @@ function Blogi() {
               <br />
               <code>
                 <span className="import">const </span>
-                <span className="bia">Test </span>
+                <span className="bia">App </span>
                 <span>= </span>
                 <span>() </span>
                 <span>=&gt;</span>
                 <span> &#123;</span>
                 <br />
+                <br />
                 <span>
                   {" "}
-                  <span className="import">const</span> [datas, getDatas] =
+                  <span className="import">const</span> [player, getPlayer] =
                   <span className="bia"> useState</span>([&#123;&#125;]);
                 </span>
                 <br />
                 <span>
                   {" "}
+                  <span className="import">const</span> [search, setSearch] =
+                  <span className="bia"> useState</span>("");
+                </span>
+                <br />
+                <br />
+                <span>
+                  <span className="import"> const</span>{" "}
+                  <span className="bia">changeValue </span>={" "}
+                  <span className="import"></span>(data) =&gt; &#123;
+                  <br />
+                  <span> setSearch(data.target.value);</span>
+                  <br />
+                  <span>&#125;;</span>
+                </span>
+                <br />
+                <br />
+                <span>
+                  {" "}
                   <span className="import">const</span>{" "}
-                  <span className="bia">getBerry </span>={" "}
+                  <span className="bia">Anjay </span>={" "}
                   <span className="import">async</span> () =&gt; &#123;
                 </span>
               </code>
-              <br />
               <br />
               <code>
                 <span className="api">
@@ -80,9 +90,10 @@ function Blogi() {
                   <span className="import">await </span>
                   <span className="bia">fetch</span>(
                   <span className="return ms-0">
-                    "https://www.boredapi.com/api/activity/"
+                    `https://api.genderize.io/?name=$
+                    <span>&#123;search &#125;</span>
                   </span>
-                  );
+                  `);
                 </span>
                 <br />
                 <span className="api">
@@ -108,13 +119,23 @@ function Blogi() {
                 <span className="return"> return &#123;</span>
                 <br />
                 <span className="data">
-                  <span className="bia">activity</span>: data.
-                  <span className="bia">activity</span>,{" "}
+                  <span className="bia">hitung</span>: data.
+                  <span className="bia">count</span>,{" "}
                 </span>
                 <br />
                 <span className="data">
-                  <span className="bia">key</span>: data.
-                  <span className="bia">key</span>,
+                  <span className="bia">jenis</span>: data.
+                  <span className="bia">gender</span>,
+                </span>
+                <br />
+                <span className="data">
+                  <span className="bia">nama</span>: data.
+                  <span className="bia">name</span>,{" "}
+                </span>
+                <br />
+                <span className="data">
+                  <span className="bia">kemungkinan</span>: data.
+                  <span className="bia">probability</span>,
                 </span>
                 <br />
                 <span className="return"> &#125;;</span>
@@ -122,7 +143,7 @@ function Blogi() {
                 <span className="api"> &#125;);</span>
                 <br />
                 <span className="api">
-                  <span className="bia"> getDatas</span>(result);
+                  <span className="bia"> getPlayer</span>(result);
                 </span>
                 <br />
                 <span> &#125;;</span>
@@ -139,7 +160,7 @@ function Blogi() {
                 <br />
                 <span className="api">
                   {" "}
-                  <span className="bia">getBerry</span>();
+                  <span className="bia">Anjay</span>();
                 </span>
                 <br />
                 <span> &#125;, []);</span>
@@ -156,36 +177,60 @@ function Blogi() {
                 <span className="ms-4">
                   {" "}
                   <span className="return">&lt;div</span>{" "}
-                  <span className="bia">className</span>="button-container"&gt;
+                  <span className="bia">className</span>="input"&gt;
                 </span>
                 <br />
                 <span className="data">
                   {" "}
-                  <span className="return">&lt;button </span>
+                  <span className="return">&lt;input </span>
                   <span className="bia">className</span>="btn"
-                  <span className="bia"> onClick</span>=&#123;
-                  <span className="bia">getBerry</span>&#125;&gt;
+                  <span className="bia"> onChange</span>=&#123;
+                  <span className="bia">changeValue</span>&#125;/&gt;
                 </span>
-                <br />
-                <span className="todo return">
-                  &lt;span&gt;<span className="text">Todo List</span>
-                  &lt;span/&gt;
-                </span>
-                <br />
-                <span className="data1 return"> &lt;/button&gt;</span>
                 <br />
                 <span className="data">
                   {" "}
                   <span className="return">&lt;p </span>
-                  <span className="bia">className</span>="description"
-                  <span className="bia"> key</span>=&#123;
-                  <span className="bia">datas.[0]</span>&#125;&gt;
-                  <br />
-                  <span className="datas">
-                    &#123;datas[0].<span className="bia">aktivity</span>&#125;
+                  <span className="bia">key</span>=&#123;
+                  <span className="bia">player[0].hitung</span>&#125;&gt;
+                  <span className="datas ms-0">
+                    &#123;player[0].<span className="bia">hitung</span>&#125;
                   </span>
-                  <br />
-                  <span className="data return ms-5 ps-5">&lt;/p&gt;</span>
+                  <span className="data return ms-0">&lt;/p&gt;</span>
+                </span>
+                <br />
+                <span className="data">
+                  {" "}
+                  <span className="return">&lt;p </span>
+                  <span className="bia">key</span>=&#123;
+                  <span className="bia">player[0].nama</span>&#125;&gt;
+                  <span className="datas ms-0">
+                    &#123;datas[0].<span className="bia">nama</span>&#125;
+                  </span>
+                  <span className="data return ms-0">&lt;/p&gt;</span>
+                </span>
+                <br />
+                <span className="data">
+                  {" "}
+                  <span className="return">&lt;p </span>
+                  <span className="bia">key</span>=&#123;
+                  <span className="bia">datas[0].jenis</span>&#125;&gt;
+                  <span className="datas ms-0">
+                    &#123;datas[0].<span className="bia">jenis</span>&#125;
+                  </span>
+                  <span className="data return ms-0">&lt;/p&gt;</span>
+                </span>
+                <br />
+                <span className="data">
+                  {" "}
+                  <span className="return">&lt;p </span>
+                  <span className="bia">key</span>=&#123;
+                  <span className="bia">datas[0].kemungkinan</span>&#125;&gt;
+                  <span className="datas ms-0">
+                    &#123;datas[0].<span className="bia">kemungkinan</span>
+                    &#125;
+                  </span>
+                  <span className="data return ms-0">&lt;/p&gt;</span>
                 </span>
                 <br />
                 <span className="return ms-5 ps-4">&lt;/div&gt;</span>
@@ -196,7 +241,7 @@ function Blogi() {
                 <br />
                 <br />
                 <br />
-                <span className="import ms-4">export default Test</span>;
+                <span className="import ms-4">export default Api</span>;
               </code>
             </pre>
           </div>
@@ -208,16 +253,16 @@ function Blogi() {
           <div className="link-l">
             {" "}
             <a
-              href="https://zlhyd.github.io/apiBored/"
+              href="https://zlhyd.github.io/genderApi/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="dot">&#9679;</span> BoredApi
+              <span className="dot">&#9679;</span> GenderApi
             </a>
           </div>
           <div className="link-l mt-3">
             <a
-              href="https://github.com/zLhYd/apiBored"
+              href="https://github.com/zLhYd/genderApi/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -235,4 +280,4 @@ function Blogi() {
   );
 }
 
-export default Blogi;
+export default Blogapig;

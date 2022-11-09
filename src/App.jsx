@@ -6,6 +6,7 @@ import Project from "./components/project/Project";
 import { Routes, Route } from "react-router-dom";
 import Blogi from "./components/blogi/Blogi";
 import Blogic from "./components/blogic/Blogic";
+import Blogapig from "./components/blogapig/Blogapig";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="blog" element={<Blog />} />
         <Route path="blogi" element={<Blogi />} />
         <Route path="blogic" element={<Blogic />} />
+        <Route path="blogapig" element={<Blogapig />} />
         <Route path="about" element={<About />} />
         <Route path="project" element={<Project />} />
       </Routes>

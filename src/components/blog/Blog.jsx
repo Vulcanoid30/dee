@@ -76,51 +76,35 @@ function Blog() {
           </div>
           <div className="blog-i">
             {" "}
-            <a
-              className="b"
-              href="https://zlhyd.github.io/catImages/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <Link className="b" to="/blogapig">
               React App guess gender by name using API
-            </a>
+            </Link>
             <br />
-            <a
+            <Link
               className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
-              target="_blank"
-              rel="noopener noreferrer"
+              to="/blogapig"
             >
               #JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
-              target="_blank"
-              rel="noopener noreferrer"
+              to="/blogapig"
             >
               #REACT JS
-            </a>
-            <a
+            </Link>
+            <Link
               className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
-              href="https://zlhyd.github.io/catImages/"
-              target="_blank"
-              rel="noopener noreferrer"
+              to="/blogapig"
             >
               #FETCH
-            </a>
-            <a
-              className="b"
-              href="https://zlhyd.github.io/genderApi/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            </Link>
+            <Link className="b" to="/blogapig">
               {" "}
               <p className="b2 secondary">
                 A project using React guess gender by their name using public
                 API
               </p>
-            </a>
+            </Link>
           </div>
         </div>
         <footer>
