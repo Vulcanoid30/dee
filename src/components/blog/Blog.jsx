@@ -108,9 +108,7 @@ function Blog() {
           </div>
         </div>
         <footer>
-          <p className="footer">
-            ©️2022 Create With <i className="bi bi-heart-fill"></i> zLhYd
-          </p>
+          <p className="footer">©️2022 Create With ❤️ zLhYd</p>
         </footer>
       </div>
     </div>

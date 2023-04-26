@@ -1,7 +1,7 @@
 import React from "react";
 import "./blogi.css";
 // import copy from "copy-to-clipboard";
-import A from "../../components/image/a.jpeg";
+import A from "../../components/image/a.png";
 import B from "../../components/image/b.jpg";
 
 function Blogi() {
@@ -23,8 +23,10 @@ function Blogi() {
           </div>
         </div>
       </div>
-      <div className="blog-b mt-5">
-        <img className="blog-img" src={A} alt="gambar" />
+      <div className="blog-b-img">
+        <div className="blog-b mt-5">
+          <img className="blog-img" src={A} alt="gambar" />
+        </div>
       </div>
       <div className="appi">
         <div className="app-title">
@@ -228,7 +230,7 @@ function Blogi() {
       </div>
       <footer>
         <p className="foot d-flex justify-content-center">
-          ©️2022 Create With zLhYd
+          ©️2022 Create With ❤️ zLhYd
         </p>
       </footer>
     </div>

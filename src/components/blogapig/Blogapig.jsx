@@ -16,8 +16,10 @@ function Blogapig() {
           </div>
         </div>
       </div>
-      <div className="blog-b mt-5">
-        <img className="blog-img" src={D} alt="gambar" />
+      <div className="blog-b-img">
+        <div className="blog-b mt-5">
+          <img className="blog-img" src={D} alt="gambar" />
+        </div>
       </div>
       <div className="appi">
         <div className="app-title">
@@ -273,7 +275,7 @@ function Blogapig() {
       </div>
       <footer>
         <p className="foot d-flex justify-content-center">
-          ©️2022 Create With zLhYd
+          ©️2022 Create With ❤️ zLhYd
         </p>
       </footer>
     </div>

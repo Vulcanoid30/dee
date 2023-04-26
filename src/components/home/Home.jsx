@@ -38,9 +38,7 @@ function Home() {
         Read All Post ➡️
       </Link>
       <footer>
-        <p className="foot">
-          ©️2022 Create With <i className="bi bi-heart-fill"></i> zLhYd
-        </p>
+        <p className="foot">©️2022 Create With ❤️ zLhYd</p>
       </footer>
     </div>
   );

@@ -24,14 +24,27 @@
   /* margin-top: 20em; */
 }
 
-.blog-b {
-  display: flex;
+.blog-b-img {
   justify-content: center;
+  display: flex;
+}
+
+.blog-b {
+  width: 30%;
+  height: 30vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
 }
 
 .blog-img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  transition: all 10s ease;
+}
+
+.blog-b:hover .blog-img {
+  transform: translateY(-15%);
 }
 
 .app-title h1 {

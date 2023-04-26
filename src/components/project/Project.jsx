@@ -98,9 +98,7 @@ const Project = () => {
           </a>
         </div>
       </div>
-      <p className="foot2">
-        ©️2022 Create With <i className="bi bi-heart-fill"></i> zLhYd
-      </p>
+      <p className="foot2">©️2022 Create With ❤️ zLhYd</p>
     </div>
   );
 };

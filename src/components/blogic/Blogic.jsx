@@ -16,8 +16,10 @@ function blogic() {
           </div>
         </div>
       </div>
-      <div className="blog-b mt-5">
-        <img className="blog-img" src={C} alt="gambar" />
+      <div className="blog-b-img">
+        <div className="blog-b mt-5">
+          <img className="blog-img" src={C} alt="gambar" />
+        </div>
       </div>
       <div className="appi">
         <div className="app-title">
@@ -209,7 +211,7 @@ function blogic() {
       </div>
       <footer>
         <p className="foot d-flex justify-content-center">
-          ©️2022 Create With <i className="bi bi-heart-fill"></i> zLhYd
+          ©️2022 Create With ❤️ zLhYd
         </p>
       </footer>
     </div>
