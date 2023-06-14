@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Blogi from "./components/blogi/Blogi";
 import Blogic from "./components/blogic/Blogic";
 import Blogapig from "./components/blogapig/Blogapig";
+import Chat from "./components/chatApp/Chat";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="blogapig" element={<Blogapig />} />
         <Route path="about" element={<About />} />
         <Route path="project" element={<Project />} />
+        <Route path="chatApp" element={<Chat />} />
       </Routes>
     </div>
   );

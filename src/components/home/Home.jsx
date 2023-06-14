@@ -32,6 +32,13 @@ function Home() {
             A project using React is to create a random image cat using public
             api
           </p>
+          <Link className="b" to="/chatApp">
+            React Chat App using Firebase
+          </Link>
+
+          <p className="b2">
+            A project using React is to create real time chat using Firebase
+          </p>
         </div>
       </div>
       <Link to="/blog" className="read2">

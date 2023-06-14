@@ -106,6 +106,37 @@ function Blog() {
               </p>
             </Link>
           </div>
+          <div className="blog-i">
+            {" "}
+            <Link className="b" to="/chatApp">
+              React Chat App Using Firebase
+            </Link>
+            <br />
+            <Link
+              className=" pro-list rounded-pill ps-3 pe-3 pt-1 pb-1"
+              to="/chatApp"
+            >
+              #JS
+            </Link>
+            <Link
+              className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
+              to="/chatApp"
+            >
+              #REACT JS
+            </Link>
+            <Link
+              className=" pro-list ms-1 rounded-pill ps-3 pe-3 pt-1 pb-1"
+              to="/chatApp"
+            >
+              #FIREBASE
+            </Link>
+            <Link className="b" to="/chatApp">
+              {" "}
+              <p className="b2 secondary">
+                A project using React and Firebase to build Real Time ChatApp
+              </p>
+            </Link>
+          </div>
         </div>
         <footer>
           <p className="footer">©️2022 Create With ❤️ zLhYd</p>
